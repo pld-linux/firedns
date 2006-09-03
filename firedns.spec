@@ -34,7 +34,7 @@ nazw jednocze¶nie.
 Summary:	Header files for firedns library
 Summary(pl):	Pliki nag³ówkowe biblioteki firedns
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for firedns library.
@@ -46,7 +46,7 @@ Pliki nag³ówkowe biblioteki firedns.
 Summary:	Static firedns library
 Summary(pl):	Statyczna biblioteka firedns
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static firedns library.
@@ -58,7 +58,7 @@ Statyczna biblioteka firedns.
 Summary:	FireDNS utilities
 Summary(pl):	Narzêdzia FireDNS
 Group:		Networking/Utilities
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description utils
 FireDNS utilities: fdnsip, fdnsname, fdnstxt.
