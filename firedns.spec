@@ -1,5 +1,5 @@
 Summary:	FireDNS - library for handling asynchronous DNS requests
-Summary(pl.UTF-8):   FireDNS - biblioteka do obsługi asynchronicznych zapytań DNS
+Summary(pl.UTF-8):	FireDNS - biblioteka do obsługi asynchronicznych zapytań DNS
 Name:		firedns
 Version:	0.1.30
 Release:	1
@@ -32,7 +32,7 @@ nazw jednocześnie.
 
 %package devel
 Summary:	Header files for firedns library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki firedns
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki firedns
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -44,7 +44,7 @@ Pliki nagłówkowe biblioteki firedns.
 
 %package static
 Summary:	Static firedns library
-Summary(pl.UTF-8):   Statyczna biblioteka firedns
+Summary(pl.UTF-8):	Statyczna biblioteka firedns
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
@@ -56,7 +56,7 @@ Statyczna biblioteka firedns.
 
 %package utils
 Summary:	FireDNS utilities
-Summary(pl.UTF-8):   Narzędzia FireDNS
+Summary(pl.UTF-8):	Narzędzia FireDNS
 Group:		Networking/Utilities
 Requires:	%{name} = %{version}-%{release}
 
