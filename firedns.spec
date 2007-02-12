@@ -1,5 +1,5 @@
 Summary:	FireDNS - library for handling asynchronous DNS requests
-Summary(pl):	FireDNS - biblioteka do obs≥ugi asynchronicznych zapytaÒ DNS
+Summary(pl.UTF-8):   FireDNS - biblioteka do obs≈Çugi asynchronicznych zapyta≈Ñ DNS
 Name:		firedns
 Version:	0.1.30
 Release:	1
@@ -20,51 +20,51 @@ implementations. libfiredns functions have much lower timeouts than
 the stock functions and tend to be faster because they send requests
 to all configured system nameservers at the same time.
 
-%description -l pl
-libfiredns to biblioteka do obs≥ugi asynchronicznych zapytaÒ DNS.
-Dostarcza bardzo prosty interfejs do wysy≥ania zapytaÒ oraz
-przetwarzania odpowiedzi, a takøe funkcje blokuj±ce z ma≥ym timeoutem.
-Moøe byÊ takøe skompilowana tak, aby przykrywaÊ funkcje BIND/LIBC
-w≥asnymi, alternatywnymi implementacjami. Funkcje libfiredns maj± duøo
-mniejsze timeouty niø standardowe funkcje i powinny byÊ szybsze,
-poniewaø wysy≥aj± zapytania do wszystkich skonfigurowanych serwerÛw
-nazw jednocze∂nie.
+%description -l pl.UTF-8
+libfiredns to biblioteka do obs≈Çugi asynchronicznych zapyta≈Ñ DNS.
+Dostarcza bardzo prosty interfejs do wysy≈Çania zapyta≈Ñ oraz
+przetwarzania odpowiedzi, a tak≈ºe funkcje blokujƒÖce z ma≈Çym timeoutem.
+Mo≈ºe byƒá tak≈ºe skompilowana tak, aby przykrywaƒá funkcje BIND/LIBC
+w≈Çasnymi, alternatywnymi implementacjami. Funkcje libfiredns majƒÖ du≈ºo
+mniejsze timeouty ni≈º standardowe funkcje i powinny byƒá szybsze,
+poniewa≈º wysy≈ÇajƒÖ zapytania do wszystkich skonfigurowanych serwer√≥w
+nazw jednocze≈õnie.
 
 %package devel
 Summary:	Header files for firedns library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki firedns
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki firedns
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for firedns library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki firedns.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki firedns.
 
 %package static
 Summary:	Static firedns library
-Summary(pl):	Statyczna biblioteka firedns
+Summary(pl.UTF-8):   Statyczna biblioteka firedns
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static firedns library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka firedns.
 
 %package utils
 Summary:	FireDNS utilities
-Summary(pl):	NarzÍdzia FireDNS
+Summary(pl.UTF-8):   Narzƒôdzia FireDNS
 Group:		Networking/Utilities
 Requires:	%{name} = %{version}-%{release}
 
 %description utils
 FireDNS utilities: fdnsip, fdnsname, fdnstxt.
 
-%description utils -l pl
-NarzÍdzia FireDNS: fdnsip, fdnsname, fdnstxt.
+%description utils -l pl.UTF-8
+Narzƒôdzia FireDNS: fdnsip, fdnsname, fdnstxt.
 
 %prep
 %setup -q -n %{name}
